@@ -38,19 +38,21 @@ This project includes advanced SQL to:
 ## ⚙️ Setup Instructions
 
 ### 🧬 1. Clone the Repository
+git clone https://github.com/JeyVathsan/Node_Backend_Pro.git
+cd Node_Backend_Pro
 
-##  git clone https://github.com/JeyVathsan/Node_Backend_Pro.git
-##  cd Node_Backend_Pro
-##  npm install
+# Install dependencies
+npm install
 
-## DB_HOST=localhost
-## DB_USER=root
-## DB_PASSWORD=yourpassword
-## DB_NAME=yourdbname
-## PORT=3000
+# Create a .env file in the root directory and add:
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=yourdbname
+PORT=3000
 
-###  Run the Server
-## npm run dev
+# Run the server
+npm run dev
 
 
 
