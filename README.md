@@ -7,15 +7,14 @@ It is designed to manage **student marks**, calculate **average scores**, determ
 
 ## 🚀 Features
 
-- Register a new student with marks.
-- Fetch all marks of a student by ID.
-- Delete a student record.
-- Calculate:
+- ✅ Register a new student with marks.
+- 📋 Fetch all marks of a student by ID.
+- 🗑️ Delete a student record.
+- 🧮 Calculate:
   - Total marks
   - Pass/Fail status (based on each subject >= 40)
   - Student ranking (only for passed students)
 
----
 
 ## 🧠 Ranking Logic (SQL)
 
@@ -36,18 +35,23 @@ This project includes advanced SQL to:
 | **nodemon**     | ^3.1.9  | Development tool that auto-restarts the server on file changes   |
 
 
-git clone https://github.com/JeyVathsan/Node_Backend_Pro.git
-cd Node_Backend_Pro
-npm install
+## ⚙️ Setup Instructions
 
+### 🧬 1. Clone the Repository
 
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=yourdbname
-PORT=3000
+##  git clone https://github.com/JeyVathsan/Node_Backend_Pro.git
+##  cd Node_Backend_Pro
+##  npm install
 
-npm run dev
+## DB_HOST=localhost
+## DB_USER=root
+## DB_PASSWORD=yourpassword
+## DB_NAME=yourdbname
+## PORT=3000
+
+###  Run the Server
+## npm run dev
+
 
 
 | Method | Endpoint               | Description                        |
